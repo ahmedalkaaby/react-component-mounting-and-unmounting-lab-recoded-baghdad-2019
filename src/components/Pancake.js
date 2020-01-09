@@ -60,7 +60,7 @@ componentDidMount(){
   this.startInterval()
 }
 componentWillUnmount(){
-  cleanUpInterval()
+  this.cleanUpInterval()
 }
   render() {
     const { timeCooked, flippedAt } = this.state;
