@@ -39,7 +39,7 @@ class Game extends React.Component {
     });
   }
 componentDidMount(){
-  setCurrentTime()
+  this.setCurrentTime()
 }
   render() {
     const { pancakes, burnt, cooked, raw, time } = this.state;
